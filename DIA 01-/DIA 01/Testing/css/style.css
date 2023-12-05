@@ -1,0 +1,18 @@
+/*TAG STYLE*/
+body{
+    background-color: rgb(255, 170, 109);
+}
+p{
+    */inline means borders adapt to the contents*/
+    display: inline;
+        /*short version*/
+    border: 1px dashed: aliceblue;
+    /*long version*/
+    border-width: 1px;
+    border-style: dashed;
+    border-color: aliceblue
+}
+/*CLASS STYLES*/
+.highlight{
+    background-color: purple;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family:'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(133, 133, 133));
+    margin: 10px 10px;
+}
+
+.container .show-filter{
+    background: rgb(157, 157, 157);
+    box-shadow: 3px 3px 3px 3px rgb(103, 103, 102);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.container .show-filter ul{
+    display: flex;
+    padding-left: 30px;
+  }
+
+.container .show-filter ul li{
+    display: block;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    padding-inline: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: all 0.5s;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container .show-filter ul li:hover{
+    color: rgb(255, 255, 255);
+    transform:translateY(-5px);
+}
+
+.show-wrapper.row{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-inline: 100px;
+}
+
+.show-wrapper.row .showroom{
+    height: 300px;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 10%;
+}
+
+.show-wrapper.row .showroom .globals.contentImg img{
+    box-shadow: 10px 3px 10px 3px rgb(128, 128, 128);
+    transition: all 0.4s;
+}
+.show-wrapper.row .showroom .globals.contentImg img:hover{
+    transform: translateY(-15px)
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(103, 103, 102);
+}

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.header{
+    background: #F9E0AE;
+    display: flex;
+    justify-content:space-between;
+}
+.header .logo img{
+margin:0 119px;
+
+}
+.header .menu{
+    display: flex;
+    align-items:center; /*centers it vertiacally*/
+}
+.header .menu ul{
+    display: flex;
+    list-style:none;
+    padding: 10;
+    margin: 50;
+    font-weight: 600;
+}
+.header .menu a{
+    display: block;
+    color:#000000;
+    font-size: 20px;
+    text-decoration: none;
+    padding:0 56px;
+}
+
+.header .menu button {
+    margin: 0 43px;
+    color: #FFFF;
+    border: none;
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background:#C24914;
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box; /*ens permet que no baixin els elements, un al costat del altre*/
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid black;
+    width: 100%;
+    margin: auto;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap; /*permet respectar les amplades dels fills*/
+    justify-content: space-evenly; /*permet que els fills distribuerixin de forma igualada en el border*/
+}
+.item{
+    width: 100%;
+    background-color: coral;
+    border: 1px solid gainsboro;
+    /*margin-bottom: 10px; = padding es del borde cap a dins (borde amb color), i margin es del borde cap a fora, espais entre colors*/
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*nomes funciona en display grid i display flex*/
+    font-weight: bold;
+    color: white;
+}
+@media (min-width: 1200px){ /*el q posem aqui s'aplica quan la mida de la pantalla és de més de 1200px*/
+    .item{
+        width: 30%;
+}
+    .container{
+        width: 1200px; 
+
+    }
+}

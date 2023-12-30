@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 50px 0; /* Aumenta el espaciado interno arriba y abajo para hacer la barra más ancha */
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-right:  50px;
+    color: #fff; /* Texto blanco */
+    font-size: 40px; /* Aumenta el tamaño del texto "Personal Portfolio" */
+    font-weight: bold; /* Hace el texto más grueso */
+  }
+  
+  .navbar-toggler {
+    background-color: #fff; /* Fondo blanco para el botón */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #000; /* Color del icono del botón */
+  }
+  
+  .navbar-collapse {
+    flex-grow: 1;
+  }
+  
+  .navbar-nav {
+    text-align: right;
+    margin-right: 30px;
+  }
+  
+  .nav-item {
+    margin: 0 15px; /* Aumenta el espacio entre los elementos de la barra de navegación */
+
+  }
+  
+  .nav-link {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease; /* Transición suave del color */
+  }
+  
+  .nav-link:hover {
+    color: #888; /* Cambia a un tono gris claro al pasar el ratón */
+  }
+
+  .hero {
+    background-color: white;
+    padding: 50px;
+    text-align: left;
+    margin-left: 300px;
+  }
+  
+  .hero-text p {
+    font-family: 'San Francisco', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+  }
+  
+  .hero-text h1 {
+    font-family: 'San Francisco', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .typed-text {
+    font-family: 'San Francisco', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .hero-btn .btn {
+    background-color: #CCCCFF;
+    color: black;
+    border: black;
+    padding: 10px 20px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'San Francisco', sans-serif;
+    text-decoration: none;
+  
+  }
+  
+  .hero-btn .btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    position: absolute; /* Permite posicionar la imagen absolutamente con respecto a su contenedor padre */
+    top: 0; /* Alinea la imagen en la parte superior del contenedor */
+    right: 0; /* Alinea la imagen a la derecha del contenedor */
+    z-index: 0; 
+  }

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,900&display=swap');
+
 body 
 {
+    font-family: 'Roboto', sans-serif;
     background:  white;
-    font-family: 'Montserrat', sans-serif;
+  
 }
 head{background-color: black;}
 #navbarColumna{display: none;}
@@ -541,3 +544,6 @@ h1
     }
     .overlay-txt{font-size: 12pt;}
 }
+
+
+

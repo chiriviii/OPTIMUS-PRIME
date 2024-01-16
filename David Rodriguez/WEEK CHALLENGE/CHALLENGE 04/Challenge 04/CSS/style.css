@@ -1,0 +1,107 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+svg{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: 	rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+.row{
+    margin-left: 20%;
+}
+
+.item{
+    padding-left: 45px;
+}
+
+.item:nth-child(1){
+    background-color: #e38826 ;  
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.item:nth-child(2){
+    background-color: #006970;
+}
+
+.item:nth-child(3){
+    background-color: #004241;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:  10px;
+}
+
+.item:nth-child(2) .button{
+    color: #006970;
+}
+.item:nth-child(3) .button{
+    color: #004241;
+}
+
+.button{
+    width: fit-content;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: #e38826;
+    margin-bottom: 60px;
+}
+
+.item .button:hover{
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .item{
+        max-width: 350px;
+        margin-right: 30px;
+    }
+    .item:nth-child(1){
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .item:nth-child(3){
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    
+    .container.pt-5{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .row{
+        max-width: 430px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+}

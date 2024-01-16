@@ -1,0 +1,23 @@
+*{
+    --red:#f30101;
+    --blue:#0f01f3;
+}
+
+
+
+
+
+.item{
+    border:1px solid black;
+
+}
+
+.item:nth-child(1){
+    background-color: var(--red);
+
+}
+
+.item:nth-child(2){
+    background-color: var(--blue);
+
+}

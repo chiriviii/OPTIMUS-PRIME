@@ -1,0 +1,113 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #96cee6;
+  }
+
+.Portada {
+    width: 350px; 
+    height: 350px;
+    border-radius: 80px;
+    border: 7px solid #306727;
+}
+
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    color: #1b3d16;
+}
+
+h2{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    color:#306727;
+}
+  
+.progress {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.progressBar{
+    width: 350px;
+    height: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+#playBtn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #1b3d16;
+    border: 2px solid #1b3d16;
+    border-radius: 15px;
+    cursor: pointer;
+}
+  
+#playBtn:active{
+    border: 2px solid #1b3d16;
+    background-color: #306727;
+    transform: scale(0.95, 0.95);
+}
+#pauseBtn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #1b3d16;
+    border: 2px solid #1b3d16;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#pauseBtn:active{
+    border: 2px solid #1b3d16;
+    background-color: #306727;
+    transform: scale(0.95, 0.95);
+}
+
+#stopBtn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #1b3d16;
+    border: 2px solid #1b3d16;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#stopBtn:active{
+    border: 2px solid #1b3d16;
+    background-color: #306727;
+    transform: scale(0.95, 0.95);
+}
+
+#forwardBtn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #1b3d16;
+    color: #cfe9cb;
+    border: 2px solid #1b3d16;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#forwardBtn:active {
+    border: 2px solid #1b3d16;
+    background-color: #306727;
+    transform: scale(0.95, 0.95);
+}
+

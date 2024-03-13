@@ -1,0 +1,42 @@
+.dino{
+    background-image: url(../img/dino.png);
+    background-position-x: 133px ;
+    height: 134px;
+    width: 133px;
+    animation-name: moure;
+    animation-duration: 1s;
+    animation-timing-function: steps(6);
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+
+}
+
+@keyframes moure{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: -800px;
+    }
+}
+
+.professor{
+    background-image: url(../img/professor_walk_cycle_no_hat.png);
+    width: 64px;
+    height: 64px;
+    animation: moureProfessor 1s steps(9)infinite;
+    background-position-y: 128px; /* per canviar la posició d'inici */
+    animation-play-state: paused;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+@keyframes moureProfessor{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: -576px;
+    }
+}

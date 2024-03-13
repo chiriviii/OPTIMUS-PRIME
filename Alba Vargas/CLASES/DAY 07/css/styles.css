@@ -1,0 +1,28 @@
+.body{
+    transition: all 1s;
+}
+
+
+.container{
+    width:70%;
+    margin: auto;
+
+}
+
+.container h1{
+    margin-bottom: 30px;
+    text-align:center;
+}
+
+.videos video{
+    width:100%;
+}
+
+.youtube{
+    margin-top: 30px;
+}
+
+.youtube iframe{
+    width:100%;
+    aspect-ratio: 16/9;
+}

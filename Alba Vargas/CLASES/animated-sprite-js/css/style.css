@@ -1,0 +1,54 @@
+.pantalla{
+    border:10px solid white;
+    position: relative;
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,3);
+    width: 1200px;
+    
+}
+
+
+
+
+
+
+
+.dino{
+    background-image: url(../img/dino.png);
+    height: 134px;
+    width: 133px;
+    animation-name: moveIt;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(6);
+    animation-play-state: paused;
+}
+
+@keyframes moveIt{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: -800px;
+    }
+
+}
+
+.professor{
+    background-image: url(../img/professor_walk_cycle_no_hat.png);
+    height: 64px;
+    width: calc(576px/9);
+    background-position-y: 64px;
+    animation: walk 1s steps(9) infinite;
+    position:absolute;
+    top:0;
+    left:200px;
+}
+
+@keyframes walk {
+    0%{
+        background-position-x: 0px;
+    }
+   100%{
+        background-position-x: 576px;
+    }
+}
